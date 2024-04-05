@@ -7,25 +7,30 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1>Front-end Links - KEA 3. semester</h1>
+        <h2>En samling af links vi har fundet, som kan hjælpe med forskellige frontend ting</h2>
+    </header>
     <div class="formbold-main-wrapper">
         <!-- Author: FormBold Team -->
         <!-- Learn More: https://formbold.com -->
         <div class="formbold-form-wrapper">
-          <form action="https://formbold.com/s/FORM_ID" method="POST">
+          <form>
+            <h3>Form</h3>
               <div class="formbold-input-flex">
                 <div>
                     <input
                     type="text"
-                    name="firstname"
-                    id="firstname"
-                    placeholder="Name"
+                    name="name"
+                    id="name"
+                    placeholder="Navn på siden"
                     class="formbold-form-input"
                     />
-                    <label for="firstname" class="formbold-form-label"> Navn </label>
+                    <label for="name" class="formbold-form-label"> Navn </label>
                 </div>
                 <div>
                     <input
-                    type="text"
+                    type="url"
                     name="link"
                     id="link"
                     placeholder="https://whatever.com"
@@ -57,7 +62,22 @@
               </button>
           </form>
         </div>
+        <section class="cards">
+            <template>
+                <article class="card">
+                    <div class="card-header">
+        
+                    </div>
+                    <div class="card-content">
+                        <p class="card-title">Title</p>
+                        <p class="card-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi tempora architecto quae exercitationem, quas inventore</p>
+                        <a href="#" class="card-link">Link</a>
+                    </div>
+                </article>
+            </template>
+        </section>
+
       </div>
-    
+    <script type="module" src="scripts.js"></script>
 </body>
 </html>

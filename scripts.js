@@ -51,6 +51,7 @@ function handleSubmit() {
       });
      // showRecipes();
     });
+    showRecipes();
   }
   handleSubmit();
   

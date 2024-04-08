@@ -49,9 +49,9 @@ function handleSubmit() {
         description: formData.get("description"),
         link: formData.get("link"),
       });
-     // showRecipes();
+      showRecipes();
     });
-    showRecipes();
+
   }
   handleSubmit();
   
